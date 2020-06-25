@@ -1,0 +1,44 @@
+.btn-primary {
+	margin-right: 10px;
+	width: 65px;
+}
+
+.add-btn {
+	background-color: #24107e;
+	margin-right: 10px;
+	color: white;
+	width: 65px;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	border-color: '#24107e';
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+	-webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+	-moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+	-ms-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+	-o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+}
+
+.add-btn:disabled {
+	background-color: #80808054;
+}
+
+.star {
+	color: red;
+}

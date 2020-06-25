@@ -1,0 +1,116 @@
+.details-main-div {
+	margin: auto;
+	margin-top: 90px;
+	padding: 20px;
+	margin-top: -10px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	text-align: left;
+	background-color: #ffffff8c;
+	width: 90%;
+	border-radius: 16px 0px 16px 16px;
+	-webkit-border-radius: 16px 0px 16px 16px;
+	-moz-border-radius: 16px 0px 16px 16px;
+	-ms-border-radius: 16px 0px 16px 16px;
+	-o-border-radius: 16px 0px 16px 16px;
+}
+.super-div {
+	padding-bottom: 20px;
+}
+
+.default {
+	text-align: left;
+}
+
+.name {
+	font-weight: 800;
+	font-size: 2.5em;
+	width: 400px;
+}
+.detail-div {
+	text-align: left;
+}
+.like {
+	font-weight: 600;
+	margin-top: 16px;
+}
+.price {
+	font-weight: 800;
+	font-size: 1.5em;
+}
+.details {
+	max-width: 398px;
+}
+
+.label {
+	font-weight: 100;
+}
+
+.card-image {
+	width: 316px;
+	border: 5px solid white;
+	box-shadow: 13px 11px 13px 0px #0000004d;
+}
+
+.close-button {
+	border-style: none;
+	color: white;
+	height: 35px;
+	margin-bottom: 1.1%;
+	width: 40px;
+
+	background-color: #fd003f;
+
+	border-radius: 10px 10px 0px 0px;
+
+	padding: 7px;
+	font-weight: 700;
+
+	margin-right: 5%;
+}
+
+.btn-success {
+	background-color: #4722fc;
+	border-color: #4722fc;
+}
+
+@media screen and (max-width: 800px) {
+	.close-button {
+		margin-bottom: 0%;
+	}
+	.details-main-div {
+		flex-direction: column;
+		text-align: center;
+	}
+	.detail-div {
+		margin-top: 35px;
+		border-top: 1px solid #ffffff73;
+		padding-top: 35px;
+	}
+
+	.details {
+		margin: auto;
+		margin-bottom: 10px;
+	}
+}
+
+.close-button:focus {
+	outline: none;
+}
+
+.super-div {
+	margin-top: 80px;
+	text-align: right;
+}
+
+@media screen and (max-width: 400px) {
+	.card-image {
+		width: 280px;
+	}
+
+	.name {
+		width: 278px;
+	}
+}

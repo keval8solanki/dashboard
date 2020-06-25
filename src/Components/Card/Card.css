@@ -1,0 +1,112 @@
+.card-main-div {
+	height: 355px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+
+.card {
+	width: 250px;
+	height: 350px;
+	margin: auto;
+	box-shadow: 9px 8px 8px 1px #00000038;
+	border-radius: 10px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+.img-div {
+	overflow: auto;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-ms-border-radius: 10px 10px 0px 0px;
+	-o-border-radius: 10px 10px 0px 0px;
+}
+
+.card-img {
+	width: 250px;
+	height: 318px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+.card-img:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+/* Like Classes */
+
+.like-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.like-button {
+	background-color: transparent;
+	border-style: none;
+	font-size: 2.1em;
+	color: #b7b7b7;
+	height: 0px;
+	margin-top: -51px;
+}
+
+.like-button:focus {
+	outline: none;
+}
+.like-message {
+	margin: 0;
+	padding: 7px;
+	color: grey;
+}
+
+.edit-card-button {
+	border-radius: 0px 0px 0px 10px;
+	background-color: #28a745;
+	-webkit-border-radius: 0px 0px 0px 10px;
+	-moz-border-radius: 0px 0px 0px 10px;
+	-ms-border-radius: 0px 0px 0px 10px;
+	-o-border-radius: 0px 0px 0px 10px;
+}
+
+.edit-card-button:focus {
+	background-color: #419644;
+}
+.delete-card-button {
+	border-radius: 0px 0px 10px 0px;
+
+	background-color: #dc3545;
+	-webkit-border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+	-ms-border-radius: 0px 0px 10px 0px;
+	-o-border-radius: 0px 0px 10px 0px;
+}
+
+.delete-card-button:focus {
+	background-color: #bd3329;
+}
+
+.control-buttons {
+	border-style: none;
+	height: 30px;
+	width: 50%;
+	color: white;
+}
+
+.control-buttons:focus {
+	outline: none;
+}

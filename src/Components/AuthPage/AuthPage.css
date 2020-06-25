@@ -1,0 +1,15 @@
+.auth-container {
+	overflow: auto;
+	background-color: white;
+	max-width: 500px;
+	padding: 40px;
+	margin: auto;
+
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+	.auth-container {
+		width: 90%;
+	}
+}

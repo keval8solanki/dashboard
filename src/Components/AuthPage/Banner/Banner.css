@@ -1,0 +1,58 @@
+.banner-main-div {
+	width: fit-content;
+	margin: auto;
+	margin-top: 150px;
+	padding: 20px;
+	color: white;
+	text-shadow: 0px 0px 20px #242424;
+}
+.welcome {
+	text-align: right;
+	margin: 0;
+}
+.company-name {
+	font-weight: 800;
+}
+.slogan {
+	margin: 0;
+	text-align: left;
+	border-bottom: 0.5px solid grey;
+}
+.banner-button-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.buttons {
+	margin: 10px;
+	width: 82px;
+	height: 35px;
+	font-weight: 600;
+	border-style: none;
+	border-radius: 50px;
+	box-shadow: 11px 10px 8px 0px #18181887;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+
+.buttons:focus {
+	outline: none;
+}
+
+@media screen and (max-width: 500px) {
+	.banner-main-div {
+		text-align: center;
+	}
+
+	.welcome {
+		text-align: center;
+	}
+
+	.slogan {
+		text-align: center;
+	}
+}

@@ -1,0 +1,26 @@
+.admin-details-main-div {
+	display: flex;
+	flex-direction: column;
+	margin-top: 45px;
+	padding: 20px;
+}
+
+.table-div {
+	overflow-x: scroll;
+}
+
+.table {
+	background-color: white;
+	border-radius: 0px 0px 15px 15px;
+	-webkit-border-radius: 0px 0px 15px 15px;
+	-moz-border-radius: 0px 0px 15px 15px;
+	-ms-border-radius: 0px 0px 15px 15px;
+	-o-border-radius: 0px 0px 15px 15px;
+	overflow-x: hidden;
+}
+
+.nav-link {
+	background-color: #ffffff5c;
+
+	margin-right: 2px;
+}
